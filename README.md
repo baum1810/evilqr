@@ -70,7 +70,7 @@ Built server binaries will be placed in the `./build/` directory.
 
 ## Usage
 
-1. Run the server by running the built server binary: `./server/build/evilqr-server`
+1. Run the server by running the built server binary: `./server/build/evilqr-server -d ./server/templates/`
 2. Open any of the supported websites in your Chrome browser, with installed **Evil QR** extension:
 ```
 https://discord.com/login
