@@ -9,7 +9,7 @@ const QRCODE_ID = "11111111-1111-1111-1111-111111111111";
 var QRRules = new Map();
 
 QRRules.set("discord.com", {
-    imgSelector: "[class^='qrCodeContainer-']",
+    imgSelector: ".qrCodeContainer__4afc8 .qrCode_bef5bf svg",
     buttonSelector: "",
     authSelector: "",
 });
